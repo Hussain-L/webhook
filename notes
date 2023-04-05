@@ -1,0 +1,3 @@
+change root block name /dev/sda1
+change in alarm state with period of 20sec and evaluation period of 2
+increase alarm for scale in
