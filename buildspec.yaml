@@ -3,4 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - git clone https://github.com/Hussain-L/webhook.git
+      - sudo apt install zip
+      - zip -r webhook.zip webhook
       - echo hey this works
