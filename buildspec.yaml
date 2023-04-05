@@ -7,3 +7,4 @@ phases:
       - sudo apt install zip
       - zip -r webhook.zip webhook
       - echo hey this works
+      - aws s3 mv webhook.zip s3://webhook-hussain
